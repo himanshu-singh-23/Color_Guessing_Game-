@@ -1,0 +1,43 @@
+.head{
+	text-align: center;
+	color: white;
+	background: #3b74ce;
+}
+.tab1{
+	background:#1c1e21;
+	margin: auto;
+	min-width: 600px;
+
+}
+nav {
+	background: white;
+	border-color:white;
+	height: 10px;
+	color: blue;
+}
+table{
+	margin: auto;
+}
+td{
+	width: 180px;
+	height: 150px;
+	background: #1c1e21;
+	border-radius: 50px;
+	border:15px solid #1c1e21;
+}
+#state{
+	margin-left: 30em;
+	margin-right: 0;
+}
+/*.tab1 td
+{ 		
+	width: 200px;
+	height: 100px;
+	margin: 10px;
+	border:10px solid grey;
+	border-radius:10px;
+	padding: 100px;
+}*/
+body{
+	background: grey;
+}

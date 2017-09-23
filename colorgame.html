@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Color Game</title>
+	<link rel="stylesheet" type="text/css" href="colorgame.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<style type="text/css">
+		.navbar-default{
+			background: white;
+			border-color: white;
+			height:auto;
+			min-height: 10px;
+			padding: 5px;
+			height: 30px;
+		}
+		.nav>li>a
+		{
+			padding: 0px;
+			
+		}
+		.blue{
+				margin: 0px;
+				padding-left:10px;
+				padding-right: 10px; 
+				color: #3b74ce;
+			}
+		.Active1{
+				color: white;
+				background: #3b74ce;  		
+			}
+		.navbar-right>li>a>strong{
+			color: #3b74ce;	
+		}
+		/*.navbar-default>li.active{
+			background:#3b74ce;
+			color: white;
+		}*/
+		/*.navbar-nav{
+			margin-left: 25%;
+		}*/
+		.navbar-nav>li.active>a>strong{
+			background:#3b74ce;
+			color: white;
+		}
+
+	</style>
+</head>
+<body class="tab1">
+	<div class="container-fluid head" id="mainback">
+		<h3>THE GREAT</h3>
+		<h1></h1>
+		<h3>GUESSING GAME</h3>
+	</div>
+	<nav class="navbar navbar-default">
+		<div class="container">
+			<ul class="nav navbar-nav">
+				<li><a href="#"><strong class="blue" id="play"></strong></a></li>
+				<li ><p id="state">hello</p></li>
+			</ul>
+			<ul class="nav navbar-nav navbar-right" id="navb">
+				<li class="blue" id="easy"><a href="#"><strong  >EASY</strong></a></li>
+				<li class="blue" id="hard"><a href="#"><strong  >HARD</strong></a></li>
+			</ul>
+		</div>
+	</nav>
+	<table>
+		<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+	</table>
+	<script type="text/javascript" src="colorgame.js"></script> 
+</body>
+</html>
